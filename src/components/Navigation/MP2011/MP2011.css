@@ -1,0 +1,123 @@
+.mp .icon-box {
+    padding: 2rem;
+    margin-top: 1rem;
+    position: relative;
+    border-radius: 1rem;
+
+    width: 100%;
+    height: 100%;
+}
+
+.mp .icon-box {
+    text-align: center;
+    font-size: 1.2rem;
+}
+.mp .mp__head {
+    /* margin-left: 40px; */
+    font-weight: bolder;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.mp a {
+    color: black;
+    text-transform: none;
+    text-decoration: none;
+}
+
+.icon-box:hover {
+    color: white !important;
+    background-color: #94c045;
+    box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9,
+        7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001;
+}
+.mp2011_title {
+    margin-top: 5rem;
+    padding-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-left: 6rem; */
+}
+
+.mp2011_title h2 {
+    font-size: 3rem;
+    font-weight: 500;
+    padding: 0;
+    line-height: 1px;
+    margin: 0 0 5px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    /* color: #aaaaaa; */
+    color: #aaaaaa;
+    font-family: "Poppins", sans-serif;
+}
+
+.mp2011_title h2::after {
+    content: "";
+    width: 12rem;
+    height: 0.2rem;
+    display: inline-block;
+    background: #94c045;
+    margin: 4px 10px;
+}
+.mp2011_title h2::before {
+    content: "";
+    width: 12rem;
+    height: 0.2rem;
+    display: inline-block;
+    background: #94c045;
+    margin: 4px 10px;
+}
+
+@media (max-width: 768px) {
+    .mp .icon-box {
+        text-align: center;
+        font-size: 1.3rem;
+    }
+    .mp .mp__head {
+        /* margin-left: 40px; */
+        font-weight: bolder;
+        font-size: 2rem;
+        text-transform: uppercase;
+    }
+    .mp2011_title {
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+        padding-bottom: 2rem;
+        padding-top: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #444939;
+    }
+    .mp2011_title h2 {
+        font-size: 1.1rem;
+        font-weight: 500;
+        padding: 0;
+        line-height: 1rem;
+        margin: 0 0 5px 0;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        /* color: #aaaaaa; */
+        color: white;
+        font-family: "Poppins", sans-serif;
+    }
+
+    .mp2011_title h2::after {
+        content: "";
+        width: 0rem;
+        height: 0.2rem;
+        display: inline-block;
+        background: #94c045;
+        margin: 4px 10px;
+    }
+    .mp2011_title h2::before {
+        content: "";
+        width: 0rem;
+        height: 0.2rem;
+        display: inline-block;
+        background: #94c045;
+        margin: 4px 10px;
+    }
+}

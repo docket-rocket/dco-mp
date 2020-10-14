@@ -1,0 +1,83 @@
+<div className="download">
+                <p> DOWNLOAD </p>
+                <ul>
+                    <li>
+                        <span>
+                            <FontAwesomeIcon icon={faFilePdf} style={style} />
+                        </span>
+                        <a>Analytical Report on Primary Census Abstract</a>
+                    </li>
+                    <li>
+                        <a>
+                            <FontAwesomeIcon icon={faFilePdf} style={style} />{" "}
+                            Census 2011 Age Data
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <FontAwesomeIcon icon={faFilePdf} style={style} />{" "}
+                            Census 2011 Disability Data
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <FontAwesomeIcon icon={faFilePdf} style={style} />{" "}
+                            Administrative and Housing Atlas of MP - 2011
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <FontAwesomeIcon icon={faFilePdf} style={style} />
+                            PCA Data Highlights of MP - 2011
+                        </a>
+                    </li>
+                    <li>
+                        <span>
+                            <FontAwesomeIcon icon={faFilePdf} style={style} />{" "}
+                        </span>
+                        <a>
+                            Analytical Report on Houses, Household Amenities and
+                            Assets
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <FontAwesomeIcon icon={faFilePdf} style={style} />{" "}
+                            Provisional Population Totals of MP Paper 2 - series
+                            24
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <FontAwesomeIcon icon={faFilePdf} style={style} />{" "}
+                            Provisional Population Total of MP(Rural & Urban
+                            Distribution)
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <FontAwesomeIcon icon={faFilePdf} style={style} />{" "}
+                            Data Gallery
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <FontAwesomeIcon icon={faFilePdf} style={style} />{" "}
+                            Census - 2011 Provisional Figures(MP)
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <FontAwesomeIcon icon={faFilePdf} style={style} />{" "}
+                            Provisional Population Total of MP Paper 1 - series
+                            24
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <FontAwesomeIcon icon={faFilePdf} style={style} />{" "}
+                            Geographical Code Directory
+                        </a>
+                    </li>
+                </ul>
+            </div>

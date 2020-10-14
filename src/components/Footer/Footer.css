@@ -1,0 +1,125 @@
+.footer__livecounter {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.footer__livecounter a img {
+    height: 2.5rem;
+    margin-left: 1rem;
+}
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+#footer {
+    /* background: #141611; */
+    /* padding: 0 0 30px 0; */
+    /* color: black; */
+    font-size: 14px;
+    /* color: black; */
+}
+
+#footer .footer-top {
+    /* background: #1c1f18; */
+    /* padding: 60px 0 30px 0; */
+}
+
+#footer .footer-top .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: #94c045;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+#footer .footer-top .social-links a:hover {
+    background: #94c045;
+    /* color: #fff; */
+    text-decoration: none;
+}
+
+#footer .copyright {
+    text-align: center;
+    padding-top: 30px;
+}
+
+#footer .credits {
+    padding-top: 0.5rem;
+    text-align: center;
+    font-size: 13px;
+    /* color: #fff; */
+    padding-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+    .footer__livecounter {
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .footer__livecounter a img {
+        height: 2.5rem;
+        margin-left: 1rem;
+    }
+
+    /*--------------------------------------------------------------
+    # Footer
+    --------------------------------------------------------------*/
+    #footer {
+        /* background: #141611; */
+        /* padding: 0 0 30px 0; */
+        /* color: black; */
+        font-size: 1rem;
+        /* color: black; */
+    }
+
+    #footer .footer-top {
+        /* background: #1c1f18; */
+        /* padding: 60px 0 30px 0; */
+    }
+
+    #footer .footer-top .social-links a {
+        font-size: 1.1rem;
+        display: inline-block;
+        background: #94c045;
+        color: #fff;
+        line-height: 1;
+        padding: 8px 0;
+        margin-right: 4px;
+        border-radius: 50%;
+        text-align: center;
+        width: 2.8rem;
+        height: 2.8rem;
+        transition: 0.3s;
+        font-weight: bold;
+    }
+
+    #footer .footer-top .social-links a:hover {
+        background: #94c045;
+        /* color: #fff; */
+        text-decoration: none;
+    }
+
+    #footer .copyright {
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    #footer .credits {
+        padding-top: 0.5rem;
+        text-align: center;
+        font-size: 13px;
+        /* color: #fff; */
+        padding-bottom: 1rem;
+    }
+}

@@ -1,0 +1,105 @@
+.india2011_title {
+    padding-top: 5rem;
+    /* padding-bottom: 0rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-left: 6rem; */
+}
+
+.india2011_title h2 {
+    font-size: 3rem;
+    font-weight: 500;
+    padding: 0;
+    line-height: 1px;
+    margin: 0 0 5px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    /* color: #aaaaaa; */
+    color: #aaaaaa;
+    font-family: "Poppins", sans-serif;
+}
+
+.india2011_title h2::after {
+    content: "";
+    width: 12rem;
+    height: 0.2rem;
+    display: inline-block;
+    background: #94c045;
+    margin: 4px 10px;
+}
+.india2011_title h2::before {
+    content: "";
+    width: 12rem;
+    height: 0.2rem;
+    display: inline-block;
+    background: #94c045;
+    margin: 4px 10px;
+}
+
+.india2011 {
+    /* background: rgba(249, 251, 244, 0.6); */
+}
+.india tr th {
+    background: #94c045;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+.table_body tr {
+    padding-left: 5rem;
+    font-size: 1.5rem;
+}
+
+.table {
+    /* margin-top: 4rem; */
+}
+
+@media (max-width: 768px) {
+    .india2011_title {
+        margin-top: 3em;
+        padding-bottom: 2rem;
+        padding-top: 2.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        background-color: #444939;
+        /* padding-left: 6rem; */
+    }
+
+    .india2011_title h2 {
+        font-size: 1.8rem;
+        font-weight: 500;
+        padding: 0;
+        line-height: 1px;
+        margin: 0 0 5px 0;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: white;
+        /* color: #aaaaaa; */
+        /* color: #aaaaaa; */
+        font-family: "Poppins", sans-serif;
+    }
+
+    .india2011_title h2::after {
+        content: "";
+        width: 0rem;
+        height: 0.2rem;
+        display: inline-block;
+        background: #94c045;
+        margin: 4px 10px;
+        display: hidden;
+    }
+    .india2011_title h2::before {
+        content: "";
+        width: 0rem;
+        height: 0.2rem;
+        display: inline-block;
+        background: #94c045;
+        margin: 4px 10px;
+        display: hidden;
+    }
+}

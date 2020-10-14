@@ -1,0 +1,30 @@
+.download {
+    font-family: "Roboto", sans-serif;
+    /* border: 2px solid; */
+    height: 100%;
+    width: 100%;
+}
+
+.download__table_head tr {
+    background-color: #00c9b7;
+    font-size: 1.8rem;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .download {
+        font-family: "Roboto", sans-serif;
+        border: 10px solid black;
+        height: 100%;
+        width: 100%;
+    }
+    .download_body tr {
+        font-size: 1.03rem;
+    }
+
+    .download__table_head tr {
+        background-color: #00c9b7;
+        font-size: 1.3rem;
+        color: white;
+    }
+}

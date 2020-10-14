@@ -1,26 +1,34 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, {useState} from "react";
+// import "./App.css";
+import Navigation from "./components/Navigation/Naviagtion";
+import Hero from "./components/Hero/Hero";
+import Footer from "./components/Footer/Footer";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const [crtval, preval] = useState({
+        hindi: false,
+        english: true,
+    });
+
+    const switchHindiLanguage = () => {
+        preval({
+            hindi: true,
+            english: false,
+        });
+    };
+    const switchEnglishLanguage = () => {
+        preval({
+            hindi: false,
+            english: true,
+        });
+    };
+    return (
+        <>
+            <Navigation></Navigation>
+            <Hero translate={crtval}></Hero>
+            <Footer></Footer>
+        </>
+    );
 }
 
 export default App;

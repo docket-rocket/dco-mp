@@ -1,0 +1,219 @@
+/* #009282 */
+.act__top_heading {
+    font-size: 1.2rem;
+    color: var(--mainmenu-main-heading-color);
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.button {
+    color: black;
+    /* border: 1px solid; */
+    border-radius: 0%;
+    background-color: white;
+    /* margin-top: 0.3rem; */
+    font-size: 2rem;
+    cursor: pointer;
+    text-align: center;
+    list-style: none;
+    text-transform: uppercase;
+    padding: 1rem;
+    box-shadow: 0 8px 12px 1px rgba(29, 17, 51, 0.04),
+        0 3px 16px 2px rgba(9, 32, 77, 0.12),
+        0 5px 10px -3px rgba(29, 17, 51, 0.12);
+}
+.button:hover {
+    color: white;
+    border-radius: 0%;
+    background-color: var(--mainmenu-main-heading-color);
+    /* margin: 0.3rem; */
+    font-size: 2rem;
+}
+.button .active {
+    color: white;
+    background-color: var(--mainmenu-main-heading-color);
+}
+
+.data_center,
+.census_2011,
+.crs,
+.crs ul,
+.map ul,
+.srs ul li,
+.srs,
+.dchb {
+    margin-top: 2rem;
+    margin-left: 3.3rem;
+    font-size: 1.8rem;
+    margin-right: 2rem;
+    list-style: none;
+    /* padding-left: 1rem; */
+}
+.ctu ul li {
+    margin-top: 2rem;
+    margin-left: 3.3rem;
+    font-size: 1.8rem;
+    margin-right: 2rem;
+    list-style: circle;
+    /* padding-left: 1rem; */
+}
+.room li {
+    margin-top: 2rem;
+    margin-left: 3.3rem;
+    font-size: 1.8rem;
+    margin-right: 2rem;
+    /* padding-left: 1rem; */
+}
+.ddu ul li {
+    margin-top: 2rem;
+    margin-left: 3.3rem;
+    font-size: 1.8rem;
+    margin-right: 2rem;
+}
+.data_center p,
+.census_2011 .p1,
+.crs .p1,
+.map .p1,
+.srs .p1 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.crs ul li img {
+    height: 45rem;
+    width: 55rem;
+    margin-left: 15rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+.crs ul li ol img {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    height: 45rem;
+    width: 50rem;
+    margin-left: 15rem;
+}
+.crs_para_heading {
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-top: 1.6rem;
+}
+.act__top_heading {
+    font-size: 2.1rem;
+    color: var(--mainmenu-main-heading-color);
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .act__top_heading {
+        font-size: 1.2rem;
+        color: var(--mainmenu-main-heading-color);
+        /* margin-top: 3rem; */
+        margin-bottom: 3rem;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    .button {
+        color: black;
+        /* border: 1px solid; */
+        border-radius: 0%;
+        background-color: white;
+        /* margin-top: 0.3rem; */
+        font-size: 1.2rem;
+        cursor: pointer;
+        text-align: center;
+        list-style: none;
+        text-transform: uppercase;
+        padding: 1rem;
+        box-shadow: 0 0 0 0;
+    }
+    .button:hover {
+        color: white;
+        border-radius: 0%;
+        /* margin: 0.3rem; */
+        font-size: 1.2rem;
+        box-shadow: 0 8px 12px 1px rgba(29, 17, 51, 0.04),
+            0 3px 16px 2px rgba(9, 32, 77, 0.12),
+            0 5px 10px -3px rgba(29, 17, 51, 0.12);
+    }
+    .button .active {
+        color: white;
+        background-color: var(--mainmenu-main-heading-color);
+    }
+
+    .data_center,
+    .census_2011,
+    .crs,
+    .crs ul,
+    .map ul,
+    .srs ul li,
+    .srs,
+    .dchb {
+        margin-top: 2rem;
+        margin-left: 3.3rem;
+        font-size: 1rem;
+        margin-right: 2rem;
+        list-style: none;
+        /* padding-left: 1rem; */
+    }
+    .ctu ul li {
+        margin-top: 2rem;
+        margin-left: 3.3rem;
+        font-size: 1rem;
+        margin-right: 2rem;
+        list-style: circle;
+        /* padding-left: 1rem; */
+    }
+    .room li {
+        margin-top: 2rem;
+        margin-left: 3.3rem;
+        font-size: 1rem;
+        margin-right: 2rem;
+        /* padding-left: 1rem; */
+    }
+    .ddu ul li {
+        margin-top: 2rem;
+        margin-left: 3.3rem;
+        font-size: 1rem;
+        margin-right: 2rem;
+    }
+    .data_center p,
+    .census_2011 .p1,
+    .crs .p1,
+    .map .p1,
+    .srs .p1 {
+        font-size: 1.2rem;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    .crs ul li img {
+        height: 20rem;
+        width: 20rem;
+        margin-left: -2rem;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+    }
+    .crs ul li ol img {
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+        height: 20rem;
+        width: 18rem;
+        margin-left: 0rem;
+    }
+    .crs_para_heading {
+        font-size: 1.2rem;
+        font-weight: bold;
+        text-decoration: underline;
+        margin-top: 1.6rem;
+    }
+}

@@ -1,0 +1,204 @@
+.mainmenu {
+    border: 1px solid #e9ecef;
+    /* background: #e0e5ec; */
+    font-family: "Roboto", sans-serif;
+    /* border: 2px solid; */
+    height: 100%;
+    width: 100%;
+    transition: 1s;
+}
+
+.mainmenu .headering {
+    padding: 1rem;
+    text-align: center;
+    font-size: 2rem;
+    cursor: pointer;
+
+    background-color: #00c9b7;
+    color: white;
+}
+.mainmenu ul {
+    list-style: none;
+    position: relative;
+    color: black;
+    transition: all 0.3s;
+}
+
+.mainmenu ul li {
+    font-size: 1.6rem;
+    padding: 0.8rem;
+    padding-left: 2rem;
+    z-index: 1;
+    cursor: pointer;
+    display: block;
+    position: relative;
+    transition: all 0.3s;
+    text-decoration: none;
+    z-index: 10000;
+}
+.mainmenu ul a {
+    text-decoration: none;
+    color: black;
+}
+.mainmenu ul a:focus {
+    outline: none;
+}
+.mainmenu ul li::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 3px;
+    background-color: #00c9b7;
+    transform: scaleY(0);
+    transition: transform 0.2s, width 0.4s cubic-bezier(1, 0, 0, 1) 0.2s,
+        background-color 0.1s;
+}
+
+.mainmenu ul li:hover::before {
+    transform: scaleY(1);
+    color: white;
+    width: 100%;
+}
+.mainmenu ul li:hover {
+    color: white;
+}
+
+/* .mainmenu ul li:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    color: #00c9b7;
+    box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9,
+        7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001;
+    transition: all 0.3s ease;
+}
+.mainmenu ul li:hover {
+    color: #fff;
+    background-color: #00c9b7;
+}
+.mainmenu ul li:hover:after {
+    left: 0;
+    width: 100%;
+    color: #fff;
+    background-color: #00c9b7;
+} */
+.mainmenu ul li:active {
+    top: 2px;
+}
+.mainmenu ul li p {
+    position: relative;
+    display: inline;
+    z-index: 1000;
+    font-size: 1.6rem;
+}
+
+.mainmenu ul a.active_class {
+    font-size: 1.6rem;
+    /* padding: 0.8rem; */
+    padding-left: 2rem;
+    z-index: 1;
+    cursor: pointer;
+    display: block;
+    position: relative;
+    transition: all 0.3s;
+    color: white;
+    background-color: #00c9b7;
+    /* box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9,
+        7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001; */
+}
+
+@media (max-width: 768px) {
+    .mainmenu {
+        border: 1px solid #e9ecef;
+        font-family: "Roboto", sans-serif;
+        height: 100%;
+        width: 100%;
+        transition: 1s;
+    }
+
+    .mainmenu .headering {
+        padding: 1rem;
+        text-align: center;
+        font-size: 1.2rem;
+        cursor: pointer;
+        background-color: #00c9b7;
+        color: white;
+    }
+    .mainmenu ul {
+        list-style: none;
+        position: relative;
+        color: black;
+        transition: all 0.3s;
+    }
+
+    .mainmenu ul li {
+        /* font-size: 2rem; */
+        border-bottom: 1px solid #aaaaaa;
+        padding: 0rem;
+        padding-left: 0.5rem;
+        padding-bottom: 0.2rem;
+        cursor: pointer;
+        display: block;
+        position: relative;
+        transition: all 0.3s;
+        text-decoration: none;
+        z-index: 10000;
+        line-height: 1.7rem;
+    }
+    .mainmenu ul a {
+        text-decoration: none;
+        color: black;
+    }
+    .mainmenu ul a:focus {
+        outline: none;
+    }
+    .mainmenu ul li::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 3px;
+        background-color: #00c9b7;
+        transform: scaleY(0);
+        transition: transform 0.2s, width 0.4s cubic-bezier(1, 0, 0, 1) 0.2s,
+            background-color 0.1s;
+    }
+
+    .mainmenu ul li:hover::before {
+        transform: scaleY(1);
+        color: white;
+        width: 100%;
+    }
+    .mainmenu ul li:hover {
+        color: white;
+    }
+
+    .mainmenu ul li:active {
+        top: 2px;
+    }
+    .mainmenu ul li p {
+        position: relative;
+        display: inline;
+        z-index: 1000;
+        font-size: 1rem;
+    }
+
+    .mainmenu ul a.active_class {
+        /* font-size: 1.5rem; */
+        padding-left: 1rem;
+        z-index: 1;
+        cursor: pointer;
+        display: block;
+        position: relative;
+        transition: all 0.3s;
+        color: white;
+        background-color: #00c9b7;
+    }
+}

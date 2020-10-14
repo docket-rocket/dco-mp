@@ -1,0 +1,134 @@
+.circular {
+    /* border: 1px solid; */
+    /* background: rgba(249, 251, 244, 0.6); */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.circular table tbody tr:hover,
+.circular table tbody tr .faCheckDouble:hover {
+    color: white;
+    background-color: #94c045;
+}
+
+.faCheckDouble {
+    height: 1.5rem;
+    width: 2rem;
+}
+
+.circular_title {
+    padding-top: 5rem;
+    /* padding-bottom: 0rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-left: 6rem; */
+    /* color: white;
+    background-color: #00005a; */
+}
+
+.circular_title h2 {
+    font-size: 3rem;
+    font-weight: 500;
+    padding: 0;
+    line-height: 1px;
+    margin: 0 0 5px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    /* color: #aaaaaa; */
+    color: #aaaaaa;
+    font-family: "Poppins", sans-serif;
+}
+
+.circular_title h2::after {
+    content: "";
+    width: 12rem;
+    height: 0.2rem;
+    display: inline-block;
+    background: #94c045;
+    margin: 9px 9px;
+}
+.circular_title h2::before {
+    content: "";
+    width: 12rem;
+    height: 0.2rem;
+    display: inline-block;
+    background: #94c045;
+    margin: 9px 9px;
+}
+
+@media (max-width: 768px) {
+    .circular_title {
+        margin-top: 6rem;
+        padding-top: 2.5rem;
+        padding-bottom: 1.3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* padding-left: 6rem; */
+        color: white;
+        background-color: #444939;
+    }
+    #circular table thead {
+        font-size: 1.3rem;
+    }
+    #circular table tbody {
+        font-size: 1.3rem;
+    }
+    .circular {
+        /* border: 1px solid; */
+        /* background: rgba(249, 251, 244, 0.6); */
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .circular table tbody tr:hover,
+    .circular table tbody tr .faCheckDouble:hover {
+        color: white;
+        background-color: #94c045;
+    }
+
+    .faCheckDouble {
+        height: 1.5rem;
+        width: 2rem;
+    }
+
+    .circular_title h2 {
+        font-size: 2.6rem;
+        font-weight: 500;
+        padding: 0;
+        line-height: 1px;
+        margin: 0 0 5px 0;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        /* color: #aaaaaa; */
+        /* color: #aaaaaa; */
+        color: white;
+        font-family: "Poppins", sans-serif;
+    }
+
+    .circular_title h2::after {
+        content: "";
+        width: 0rem;
+        height: 0.2rem;
+        display: inline-block;
+        background: #94c045;
+        margin: 4px 10px;
+    }
+    .circular_title h2::before {
+        content: "";
+        width: 0rem;
+        height: 0.2rem;
+        display: inline-block;
+        background: #94c045;
+        margin: 4px 10px;
+    }
+}

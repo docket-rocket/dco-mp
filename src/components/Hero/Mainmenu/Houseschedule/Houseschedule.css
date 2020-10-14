@@ -1,0 +1,55 @@
+.house__heading {
+    padding-top: 2rem;
+    font-size: 2rem;
+    text-align: center;
+    color: var(--mainmenu-main-heading-color);
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.house {
+    /* font-size: 1.3rem; */
+    padding-left: 2rem;
+    height: 100%;
+    width: 100%;
+}
+
+.house ul {
+    list-style: none;
+}
+
+.house ul li img {
+    padding-left: 20%;
+    padding-top: 5rem;
+}
+@media (max-width: 768px) {
+    .house__heading {
+        padding-top: 2rem;
+        font-size: 1.2rem;
+        text-align: center;
+        color: var(--mainmenu-main-heading-color);
+        /* text-decoration: underline; */
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .house {
+        font-size: 1rem;
+        padding-left: 1rem;
+    }
+
+    .house ul {
+        list-style: none;
+    }
+
+    .house ul li img {
+        /* padding-left: 20%; */
+        height: 90%;
+        width: 90%;
+        padding-top: 1rem;
+    }
+}

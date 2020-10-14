@@ -1,0 +1,42 @@
+h1 {
+    font-size: 1.7rem;
+}
+.ccm {
+    padding: 4rem;
+}
+.ccm__main_heading {
+    padding-bottom: 1.5rem;
+    text-align: center;
+}
+.ccm__heading {
+    padding-bottom: 1rem;
+}
+.ccm__footer {
+    text-align: end;
+}
+.ccm__footer_box {
+    padding-top: 12rem;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.4rem;
+    }
+    .ccm {
+        padding: 2rem;
+    }
+    .ccm__main_heading {
+        padding-top: 2rem;
+        padding-bottom: 1.5rem;
+        text-align: center;
+    }
+    .ccm__heading {
+        padding-bottom: 1rem;
+    }
+    .ccm__footer {
+        text-align: end;
+    }
+    .ccm__footer_box {
+        padding-top: 8rem;
+    }
+}

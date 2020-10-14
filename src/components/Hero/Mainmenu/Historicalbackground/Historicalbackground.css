@@ -1,0 +1,25 @@
+.thead {
+    background-color: #00c7b5;
+    color: white;
+}
+.table {
+    font-size: 1.3rem;
+    cursor: pointer;
+    z-index: 10;
+}
+
+@media (max-width: 768px) {
+    .thead tr {
+        background-color: #00c7b5;
+        color: white;
+        font-size: 1.2rem;
+    }
+    .hb_body tr {
+        font-size: 1.1rem;
+    }
+    .table {
+        font-size: 1.4rem;
+        cursor: pointer;
+        z-index: 10;
+    }
+}

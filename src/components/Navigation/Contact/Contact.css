@@ -1,0 +1,106 @@
+.contact_title {
+    padding-top: 5rem;
+
+    /* padding-bottom: 0rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-left: 6rem; */
+}
+
+.contact_title h2 {
+    font-size: 3rem;
+    font-weight: 500;
+    padding: 0;
+    line-height: 1px;
+    margin: 0 0 5px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    /* color: #aaaaaa; */
+    color: #aaaaaa;
+    font-family: "Poppins", sans-serif;
+}
+
+.contact_title h2::after {
+    content: "";
+    width: 12rem;
+    height: 0.2rem;
+    display: inline-block;
+    background: #94c045;
+    margin: 4px 10px;
+}
+.contact_title h2::before {
+    content: "";
+    width: 12rem;
+    height: 0.2rem;
+    display: inline-block;
+    background: #94c045;
+    margin: 4px 10px;
+}
+.table thead {
+    font-size: 2rem;
+}
+.table tbody {
+    font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+    .contact_title {
+        /* margin-top: 2rem; */
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        color: white;
+        /* background-color: #189ad3; */
+        background-color: #444939;
+
+        /* padding-bottom: 0rem; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* padding-left: 6rem; */
+    }
+
+    #Contact .contact_head tr ul li {
+        font-size: 1rem !important;
+    }
+    #Contact .contact_head_body tr ul li {
+        font-size: 1rem !important;
+    }
+
+    .contact_title h2 {
+        font-size: 2rem;
+        font-weight: 500;
+        padding: 0;
+        line-height: 1px;
+        margin: 0 0 5px 0;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        /* color: #aaaaaa; */
+        color: white;
+        font-family: "Poppins", sans-serif;
+    }
+
+    .contact_title h2::after {
+        content: "";
+        width: 0rem;
+        height: 0.2rem;
+        display: inline-block;
+        background: #94c045;
+        margin: 4px 10px;
+    }
+    .contact_title h2::before {
+        content: "";
+        width: 0rem;
+        height: 0.2rem;
+        display: inline-block;
+        background: #94c045;
+        margin: 4px 10px;
+    }
+
+    .table thead {
+        font-size: 1rem;
+    }
+    .table tbody {
+        font-size: 0.7rem;
+    }
+}

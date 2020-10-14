@@ -1,0 +1,23 @@
+.display {
+    /* border: 2px solid; */
+    border: 1px solid #e9ecef;
+    width: 100%;
+    overflow: auto;
+    position: relative;
+    height: 100%;
+    /* margin-top: 0; */
+    transition: 1s;
+    /* overflow-y: scroll; */
+}
+
+.scroll1::-webkit-scrollbar {
+    width: 5px;
+}
+
+.scroll1::-webkit-scrollbar-track {
+    background: #ddd;
+}
+
+.scroll1::-webkit-scrollbar-thumb {
+    background: #666;
+}

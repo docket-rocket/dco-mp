@@ -1,0 +1,27 @@
+table {
+    z-index: 100;
+}
+.tender_table {
+    font-size: 1.6rem;
+}
+
+.tender_table tr th {
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+@media (max-width: 768px) {
+    table {
+        z-index: 100;
+    }
+    .tender_table {
+        font-size: 1.3rem;
+    }
+
+    .tender_table tr th {
+        text-align: center;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
