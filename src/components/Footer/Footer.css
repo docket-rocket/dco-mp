@@ -89,7 +89,7 @@
     }
 
     #footer .footer-top .social-links a {
-        font-size: 1.1rem;
+        font-size: 1rem;
         display: inline-block;
         background: #94c045;
         color: #fff;
@@ -98,8 +98,8 @@
         margin-right: 4px;
         border-radius: 50%;
         text-align: center;
-        width: 2.8rem;
-        height: 2.8rem;
+        width: 2.4rem;
+        height: 2.4rem;
         transition: 0.3s;
         font-weight: bold;
     }
